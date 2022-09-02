@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class area{
+    public static void main(String[] args)
+    {
+        float r,a;
+        float pi = 3.14f;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Radius");
+        r = sc.nextFloat();
+        a = pi * r*r;
+        System.out.println(a);
+
+    }
+}
+
