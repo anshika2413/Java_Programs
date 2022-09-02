@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class volume{
+    public static void main(String[] args)
+    {
+        float r,v,h;
+        float pi = 3.14f;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Radius");
+        r = sc.nextFloat();
+        System.out.println("Enter height");
+        h = sc.nextFloat();
+        v=  (pi * r * r * h)/3;
+        System.out.println(v);
+
+    }
+}
