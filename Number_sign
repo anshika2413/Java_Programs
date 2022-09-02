@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class number{
+    public static void main(String[] args)
+    {
+        float a;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number");
+        a = sc.nextFloat();
+        if( a>0)
+        {
+            System.out.println(a+"is positive");
+        }
+        else if(a<0)
+        {
+            System.out.println(a+"is negative");
+        }
+        else{
+            System.out.println("Number is zero");
+        }
+        
+
+    }
+}
